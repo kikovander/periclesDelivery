@@ -15,31 +15,12 @@ main {
   text-align: center;
 }
 
-.textocentral {
-  display: flex;
-  justify-content: center;
-}
-
-.textocentral h1 {
-  width: 75%;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 3em;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 3em;
-}
-
 p {
   font-weight: 400;
   font-size: 2em;
 }
 
-.retangulo {
+.retanguloPrincipal {
   background: #ca7900;
   width: 75%;
   display: flex;
@@ -55,31 +36,15 @@ p {
   justify-content: center;
 }
 
-.doisbotoes {
-  margin-top: 2em;
-  display: flex;
-  justify-content: space-around;
-}
-
-.doisbotoes button {
-  all: unset;
-  width: 150px;
-  height: 50px;
-  border: 5px solid #fff;
-  border-radius: 1em;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.copo {
+.imgCopo {
   position: absolute;
 }
 
-.carrinho {
+.imgCarrinho {
   width: 15px;
 }
 
-.ultimoelemento {
+.ultimoElemento {
   margin-left: 10em;
 }
 
@@ -98,3 +63,40 @@ nav li {
   font-weight: 700;
   font-size: 18px;
 }
+
+/* .textocentral {
+  display: flex;
+  justify-content: center;
+}
+
+.textocentral h1 {
+  width: 75%;
+} */
+
+/* h1 {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3em;
+} */
+
+/* .botoesPrincipal {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.botoesPrincipal button {
+  all: unset;
+  width: 150px;
+  height: 50px;
+  border: 5px solid #fff;
+  border-radius: 1em;
+  font-weight: 600;
+  cursor: pointer;
+} */
+
+
